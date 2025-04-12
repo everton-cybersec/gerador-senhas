@@ -1,0 +1,4 @@
+Python 3.10 ou superior
+
+Tkinter (já incluso na maioria das distribuições do Python)
+
