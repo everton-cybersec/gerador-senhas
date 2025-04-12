@@ -15,6 +15,11 @@ Um aplicativo simples em Python com interface gráfica (Tkinter) para gerar senh
 2. Execute o script:
 
 ```bash
-git remote add origin https://github.com/seu-usuario/gerador-senhas.git
-git push -u origin main
+git clone https://github.com/everton-cybersec/gerador-senhas.git
+cd gerador-senhas
+
+pip install -r requirements.txt
+
+pyinstaller --onefile gerador_senhas_gui.py
+
 
