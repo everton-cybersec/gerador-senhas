@@ -30,7 +30,7 @@ pip install pyinstaller
 ```bash
 pyinstaller --onefile --windowed gerador_senhas_gui.py
 ```
-## O executável será criado dentro da pasta /dist/.
+#### O executável será criado dentro da pasta /dist/.
 
 
 
