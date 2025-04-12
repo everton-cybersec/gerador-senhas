@@ -17,8 +17,22 @@ Um aplicativo simples em Python com interface gráfica (Tkinter) para gerar senh
 ```bash
 git clone https://github.com/everton-cybersec/gerador-senhas.git
 cd gerador-senhas
+```
 
-## 2. Instale o PyInstaller (se quiser gerar o .exe)
+### 2. Instale o PyInstaller (se quiser gerar o .exe)
+
+```bash
+pip install pyinstaller
+```
+
+### 3. Gere o executável
+
+```bash
+pyinstaller --onefile --windowed gerador_senhas_gui.py
+```
+## O executável será criado dentro da pasta 
+```bash
+dist/.
 
 
 
